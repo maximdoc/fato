@@ -1,0 +1,23 @@
+$menu: #AEAEAE;
+$title: #282F65;
+$text: #626262;
+$link: #FFA800;
+$subtitle: #79DCF2;
+
+%title-font {
+  font-family: 'Khula', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 130%;
+  color: $title;
+}
+
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers});
+}
+
